@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    background-color: rgb(231, 231, 231);
+    width: 500px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#time {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid salmon;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#value {
+    font-size: 30px;
+}
+
+#taskName {
+    font-size: 20px;
+}
+
+.taskForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.time-config {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 30px;
+}
+
+.time-config input[type="number"] {
+    width: 70px;
+    padding: 5px;
+    border: none;
+}
+input[type="text"] {
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 350px;
+}
+
+button {
+    border: none;
+    background-color: rgb(19, 33, 184);
+    color: white;
+    padding: 10px 15px;
+}
+
+#task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.done {
+    
+    color: #006900;
+    background-color: greenyellow;
+    padding: 5px;
+}
